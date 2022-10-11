@@ -1,24 +1,14 @@
-# README
+# HoteliTrack
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+HoteliTrack is a web based management system for hoteliers to keep track of guests staying at their premises as well as the employees assigned to the guests during their stay.
 
-Things you may want to cover:
+### Tools used
+React 
+Ruby on Rails 
+Postgresql 
 
-* Ruby version
+### Author 
+Gloria Oduor
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### License 
