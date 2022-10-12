@@ -10,7 +10,7 @@ function LoginPage (){
             <div className="container-fluid h-custom">
                 <div className="row d-flex justify-content-center align-items-center h-60">
                     <div className="col-md-6 col-lg-6 col-xl-5">
-                    <img alt="icon" src="https://cdn-icons-png.flaticon.com/512/58/58291.png" className="img-fluid"/>
+                    <img alt="icon" src="https://cdn-icons-png.flaticon.com/512/8258/8258393.png" className="img-fluid"/>
                     </div> 
                     {/* https://cdn-icons-png.flaticon.com/512/8258/8258393.png */}
                     <div className="col-md-6 col-lg-6 col-xl-4 offset-xl-1">
