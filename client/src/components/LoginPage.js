@@ -10,9 +10,8 @@ function LoginPage (){
             <div className="container-fluid h-custom">
                 <div className="row d-flex justify-content-center align-items-center h-60">
                     <div className="col-md-6 col-lg-6 col-xl-5">
-                    <img alt="icon" src="https://cdn-icons-png.flaticon.com/512/8258/8258393.png" className="img-fluid"/>
+                    <img alt="icon" src="https://cdn-icons-png.flaticon.com/512/58/58291.png" className="img-fluid"/>
                     </div> 
-                    {/* https://cdn-icons-png.flaticon.com/512/8258/8258393.png */}
                     <div className="col-md-6 col-lg-6 col-xl-4 offset-xl-1">
                         <form className="login-form">
                             <div className="d-flex align-items-center my-4">
@@ -22,19 +21,19 @@ function LoginPage (){
                             {/* <!-- Email input --> */}
                              <div className="form-outline mb-4">
                                 <label className="form-label" htmlFor="form3Example3">Email address</label>
-                                <input type="email" id="form3Example3" className="form-control form-control-lg"
+                                <input type="email" id="form3Example3" className="form-control form-control-md"
                                 placeholder="Enter a valid email address" />
                             </div>
 
                             {/* <!-- Password input --> */}
                             <div className="form-outline mb-3">
                                 <label className="form-label" htmlFor="form3Example4">Password</label>
-                                <input type="password" id="form3Example4" className="form-control form-control-lg"
+                                <input type="password" id="form3Example4" className="form-control form-control-md"
                                 placeholder="Enter password" />
                             </div>
 
                             <div className="text-center text-lg-start mt-4 pt-2">
-                                <Link to="/" type="button" className="btn btn-primary btn-lg">Login</Link>
+                                <Link to="/" type="button" className="btn btn-primary btn-md">Login</Link>
                                 <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="/sign-up"
                                 className="link-danger">Sign Up</a></p>
                             </div>
