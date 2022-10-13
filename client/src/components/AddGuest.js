@@ -22,7 +22,7 @@ function AddGuest(){
                         <input type="text" className="form-control form-control-md" placeholder="First Name" />
                     </div>
                     <div className="col-lg-6">
-                        <input type="text" className="form-control form-control-md" placeholder="Second Name" />
+                        <input type="text" className="form-control form-control-md" placeholder="Last Name" />
                     </div>
                 </div>
             
