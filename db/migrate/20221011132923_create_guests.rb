@@ -5,7 +5,7 @@ class CreateGuests < ActiveRecord::Migration[6.1]
       t.string :sname
       t.string :gender
       t.integer :id_no
-      t.boolean :is_citizen
+      t.string :nationality
 
       t.timestamps
     end
