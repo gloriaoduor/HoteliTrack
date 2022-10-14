@@ -7,7 +7,7 @@ class CreateGuests < ActiveRecord::Migration[6.1]
       t.string :nationality
       t.string :gender
       t.string :email
-      t.integer :tel_no
+      t.string :tel_no
       
 
       t.timestamps

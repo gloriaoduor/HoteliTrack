@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 2022_10_11_132923) do
     t.string "nationality"
     t.string "gender"
     t.string "email"
-    t.integer "tel_no"
+    t.string "tel_no"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
