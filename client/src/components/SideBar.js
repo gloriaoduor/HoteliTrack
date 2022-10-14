@@ -11,12 +11,15 @@ import {
 
 
 function SideBar (){
+
+  function handleLogout(){
+    fetch ("/logout", {
+      method: "DELETE",
+    })
+    }
+
     return (
     <div className="border-end sidenav" id="sidebar-wrapper">
-
-      {/* <div className="sidebar-heading border-bottom ">
-        <h3>HoteliTrack</h3>
-      </div> */}
       
       {/* Static Sidebar */}
       <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
@@ -42,7 +45,9 @@ function SideBar (){
           </CDBSidebarContent>
 
           <CDBSidebarFooter style={{ textAlign: 'center' }}>
-            <div className="sidebar-btn-wrapper" style={{padding: '20px 5px', }}>Logout</div>
+            <div className="sidebar-btn-wrapper" style={{padding: '20px 5px', }}>
+              <button onClick={handleLogout}>Logout</button>
+            </div>
           </CDBSidebarFooter>
 
         </CDBSidebar>

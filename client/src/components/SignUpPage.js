@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom';
 
 
+
 function SignUpPage (){
+
+    
+
     
     return (
         <section className="vh-100">
@@ -33,7 +37,7 @@ function SignUpPage (){
                             </div>
 
                             <div className="text-center text-lg-start mt-4 pt-2">
-                                <Link to="/" type="button" className="btn btn-primary btn-lg">Sign Up</Link>
+                                <Link to="/login" type="button" className="btn btn-primary btn-lg">Sign Up</Link>
                                 <p className="small fw-bold mt-2 pt-1 mb-0">Have an account? <a href="#!"
                                 className="link-danger">Log In</a></p>
                             </div>
