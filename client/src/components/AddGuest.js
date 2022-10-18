@@ -130,45 +130,61 @@
 // export default AddGuest;
 
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
+import { Modal, Button } from "react-bootstrap";
+
 
 function AddGuest(){
+    // const [showForm, setShowForm] = useState (false);
+
+    // openModal = () => this.setState({ isOpen: true });
+    // closeModal = () => this.setState({ isOpen: false });
 
     return (
-        <form className=" mt-4 mx-4 bg-light p-4 h-custom row d-flex">
-        <div><div className="mb-1">
-            <label htmlFor="fname" className="form-label">First Name</label>
-            <div className="input-group mb-1">
-                <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-            </div>
-        </div>
-        <div className="mb-1">
-            <label htmlFor="sname" className="form-label">Last Name</label>
-            <div className="input-group mb-1">
-                <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-            </div>
-        </div>
-        <div className="mb-1">
-            <label htmlFor="exampleInputEmail1" className="form-label">ID No.</label>
-            <div className="input-group mb-1">
-                <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-            </div>
-        </div>
-        <div className="mb-1">
-            <label htmlFor="email" className="form-label">Email</label>
-            <div className="input-group mb-1">
-                <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-            </div>
-        </div>
-        <div className="mb-1">
-            <label htmlFor="nationality" className="form-label">Nationality</label>
-            <div className="input-group mb-1">
-                <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-            </div>
-        </div>
-        <hr/>
-        <button type="submit" className="btn btn-default btn-primary">Submit</button>
-    </div></form>
+    //     <form className=" mt-4 mx-4 bg-light p-4 h-custom row d-flex">
+    //     <div><div className="mb-1">
+    //         <label htmlFor="fname" className="form-label">First Name</label>
+    //         <div className="input-group mb-1">
+    //             <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+    //         </div>
+    //     </div>
+    //     <div className="mb-1">
+    //         <label htmlFor="sname" className="form-label">Last Name</label>
+    //         <div className="input-group mb-1">
+    //             <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+    //         </div>
+    //     </div>
+    //     <div className="mb-1">
+    //         <label htmlFor="exampleInputEmail1" className="form-label">ID No.</label>
+    //         <div className="input-group mb-1">
+    //             <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+    //         </div>
+    //     </div>
+    //     <div className="mb-1">
+    //         <label htmlFor="email" className="form-label">Email</label>
+    //         <div className="input-group mb-1">
+    //             <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+    //         </div>
+    //     </div>
+    //     <div className="mb-1">
+    //         <label htmlFor="nationality" className="form-label">Nationality</label>
+    //         <div className="input-group mb-1">
+    //             <input type="name" className="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+    //         </div>
+    //     </div>
+    //     <hr/>
+    //     <button type="submit" className="btn btn-default btn-primary">Submit</button>
+    // </div></form>
+    <Modal>
+        <Modal.Header closeButton>
+          <Modal.Title>Modal heading</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary">Close</Button>
+        </Modal.Footer>
+
+    </Modal>
     );
 }
 

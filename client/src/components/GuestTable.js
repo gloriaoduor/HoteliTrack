@@ -1,18 +1,12 @@
 import React from "react";
 // import AddGuest from "./AddGuest";
-// import { useState } from "react";
+import { Modal, Button } from "react-bootstrap";
 
 function GuestTable(){
    
     
-    // const  [tblData, setTblData] = useState([]);
 
-    // function fetchDetails(){
-    //     fetch('http://127.0.0.1:4000/guests')
-    //     .then(res => res.json())
-    //     .then(data =>console.log(data))
-        
-    // }
+
     return (
       <div className="table-container mt-4 mx-4 bg-light p-4 h-custom row d-flex">
       <div className="row">
@@ -21,7 +15,7 @@ function GuestTable(){
           </div>
           <div className="col text-right">
               <button className="btn btn-default low-height-btn" >
-              {/* onClick={(displayForm)} */}
+              
                   <i className="fa fa-plus"></i>
               </button>
           </div>
@@ -105,7 +99,24 @@ function GuestTable(){
       </nav>
       
   </div>
-
+    //     <><div
+    //     className="d-flex align-items-center justify-content-center"
+    //     style={{ height: "100vh" }}
+    //   >
+    //     <Button variant="primary">
+    //       Launch demo modal
+    //     </Button>
+    //   </div>
+    // <Modal show={this.state.isOpen} >
+    //     <Modal.Header closeButton>
+    //       <Modal.Title>Modal heading</Modal.Title>
+    //     </Modal.Header>
+    //     <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+    //     <Modal.Footer>
+    //       <Button variant="secondary">Close</Button>
+    //     </Modal.Footer>
+    //   </Modal>
+    //   </>
     );
 }
 
