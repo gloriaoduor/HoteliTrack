@@ -12,9 +12,9 @@ function NavBar (){
                         <li className="nav-item dropdown notifications">
                             <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fa fa-bell"></i></a>
                             <div className="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#!">Profile</a>
+                                <a className="dropdown-item" href="/">Profile</a>
                                 <div className="dropdown-divider"></div>
-                                <a className="dropdown-item" href="#!">Log Out</a>
+                                <a className="dropdown-item" href="/">Log Out</a>
                             </div>
                         </li>
                     </ul>

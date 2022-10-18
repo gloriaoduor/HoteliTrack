@@ -1,8 +1,12 @@
 import AddGuest from "./AddGuest";
-import NavBar from "./NavBar";
+// import NavBar from "./NavBar";
 import SideBar from "./SideBar";
+import GuestTable from "./GuestTable";
+import EmpTable from "./EmpTable";
+
 
 function Dashboard(){
+    
 
     return (
 
@@ -15,7 +19,9 @@ function Dashboard(){
 
                 {/* <!-- Page content--> */}
                 <div className="container-fluid content-container">
-                    <AddGuest/>
+                    {/* <AddGuest/> */}
+                    <GuestTable/>
+                    <EmpTable/>
                 </div>
             </div>   
         </div>

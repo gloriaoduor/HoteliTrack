@@ -23,7 +23,7 @@ class GuestsController < ApplicationController
         guest = Guest.find_by(id: params[:id])
         if guest
             guest.destroy
-            render json: guest
+            head :no_content
         else 
             render json: {error: "This guest does not exist"}
         end 

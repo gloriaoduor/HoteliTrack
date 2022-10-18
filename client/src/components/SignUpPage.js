@@ -38,7 +38,7 @@ function SignUpPage (){
 
                             <div className="text-center text-lg-start mt-4 pt-2">
                                 <Link to="/login" type="button" className="btn btn-primary btn-lg">Sign Up</Link>
-                                <p className="small fw-bold mt-2 pt-1 mb-0">Have an account? <a href="#!"
+                                <p className="small fw-bold mt-2 pt-1 mb-0">Have an account? <a href="/login"
                                 className="link-danger">Log In</a></p>
                             </div>
                         </form>

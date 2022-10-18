@@ -12,11 +12,11 @@ import {
 
 function SideBar (){
 
-  function handleLogout(){
-    fetch ("/logout", {
-      method: "DELETE",
-    })
-    }
+  // function handleLogout(){
+  //   fetch ("/logout", {
+  //     method: "DELETE",
+  //   })
+  //   }
 
     return (
     <div className="border-end sidenav" id="sidebar-wrapper">
@@ -26,19 +26,19 @@ function SideBar (){
         <CDBSidebar textColor="#fff" backgroundColor="#333">
 
           <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-            <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>HoteliTrack</a>
+            <a href="/" className="text-decoration-none" style={{ color: 'inherit' }}>Sarova Admin</a>
           </CDBSidebarHeader>
           
           {/* Sidebar Content */}
           <CDBSidebarContent className="sidebar-content">
             <CDBSidebarMenu>
-              <Link exact to="/" activeClassName="activeClicked">
+              <Link exact to="/dashboard" activeClassName="activeClicked">
                 <CDBSidebarMenuItem icon="table">Guests</CDBSidebarMenuItem>
               </Link>
               <Link exact to="/new-guest" activeClassName="activeClicked">
                 <CDBSidebarMenuItem icon="table">Add new Guest</CDBSidebarMenuItem>
               </Link>
-              <Link exact to="/profile" activeClassName="activeClicked">
+              <Link exact to="/employees" activeClassName="activeClicked">
                 <CDBSidebarMenuItem icon="table">Employees</CDBSidebarMenuItem>
               </Link>
             </CDBSidebarMenu>
@@ -46,7 +46,7 @@ function SideBar (){
 
           <CDBSidebarFooter style={{ textAlign: 'center' }}>
             <div className="sidebar-btn-wrapper" style={{padding: '20px 5px', }}>
-              <button onClick={handleLogout}>Logout</button>
+              <a className="btn btn-primary" href="/login" >Logout</a>
             </div>
           </CDBSidebarFooter>
 
