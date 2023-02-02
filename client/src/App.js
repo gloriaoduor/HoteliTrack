@@ -1,12 +1,21 @@
 import './App.css';
-import LoginPage from './components/LoginPage'; 
+import background from './bg_image.jpg';
+
+
 
 
 
 function App() {
   return (
     <div>
-    <LoginPage/>
+    <div className='homepage vh-100' style={{backgroundImage: `url(${background})`, backgroundSize: "cover"}}>
+    <h1>HoteliTrack</h1>
+
+                    
+
+
+      
+    </div>
     </div>
    
   );

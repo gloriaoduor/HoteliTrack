@@ -1,6 +1,6 @@
 import React from "react";
 // import AddGuest from "./AddGuest";
-import { Modal, Button } from "react-bootstrap";
+// import { Modal, Button } from "react-bootstrap";
 
 function GuestTable(){
    

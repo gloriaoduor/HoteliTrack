@@ -35,12 +35,18 @@ function LoginPage (){
     
     return (
         // form onSubmit={handleSubmit}
-        <section className="vh-100">
+        
+            
+        <section className="Login vh-100">
+         
             <div className="container-fluid h-custom">
+                
                 <div className="row d-flex justify-content-center align-items-center h-60">
+                
                     <div className="col-md-6 col-lg-6 col-xl-5 mt-4">
+                    
                     <img alt="icon" src="https://cdn-icons-png.flaticon.com/512/58/58291.png" className="img-fluid"/>
-                    <h3>HoteliTrack</h3>
+                    
                     </div> 
                     <div className="col-md-6 col-lg-6 col-xl-4 offset-xl-1">
                         <form className="login-form" onSubmit={handleSubmit}>
