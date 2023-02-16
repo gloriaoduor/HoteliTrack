@@ -1,62 +1,66 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  min-height: 75vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 100px;
-  color: white;
-}
-.homepage{
-  background-image: url(./bg_image.jpg);
-  background-size: cover;
   
+  /* background-color: #b7f2e2; */
+  min-height:100vh;
  
 }
+.row{
+  min-height: 100vh;
+}
+
+.infocol{
+  background-color: #b7f2e2 ;
+}
+
+.Header {
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 10%;
+  margin-left: 21%;
+  padding: 10px;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  
+}
+.Text{
+  font-size: 30%;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+}
+.img{
+  margin-top: 10%;
+  margin-left: 30%;
+  width: 380px;
+  height: 40vh;
+}
+.button{
+  width: 200px;
+  height: 65px;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+.info{
+  margin-left: auto ;
+  margin-right: auto;
+  margin-top: 20%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:xx-large;
+  width: 80%;
+}
+/* .loginbtn{
+  align-self: center;
+} */
+/* .column{
+  min-height: 100vh;
+  background-color: #b7f2e2 ;
+} */
 
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
-}
-.h-custom {
-  height: calc(100% - 73px);
-}
-@media (max-width: 450px) {
-  .h-custom {
-    height: 100%;
-  }
-}
-
 .login-form {
   background: #fff;
   padding: 10px 5%;

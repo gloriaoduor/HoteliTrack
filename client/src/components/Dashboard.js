@@ -1,4 +1,4 @@
-import AddGuest from "./AddGuest";
+// import AddGuest from "./AddGuest";
 // import NavBar from "./NavBar";
 import SideBar from "./SideBar";
 import GuestTable from "./GuestTable";
