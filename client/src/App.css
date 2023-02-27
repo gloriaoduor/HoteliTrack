@@ -4,7 +4,7 @@
   min-height:100vh;
  
 }
-.row{
+.app-row{
   min-height: 100vh;
 }
 
@@ -16,22 +16,24 @@
   font-size: 80px;
   font-weight: bold;
   margin-top: 10%;
-  margin-left: 21%;
   padding: 10px;
   font-family:'Courier New', Courier, monospace;
   color: black;
   
 }
-.Text{
-  font-size: 30%;
-  font-family:'Courier New', Courier, monospace;
-  color: black;
-}
 .img{
+  width: 50%;
+}
+.landing{
   margin-top: 10%;
-  margin-left: 30%;
-  width: 380px;
-  height: 40vh;
+}
+.info{
+  margin-left: auto ;
+  margin-right: auto;
+  margin-top: 20%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: xx-large;
+  width: 80%;
 }
 .button{
   width: 200px;
@@ -42,21 +44,56 @@
   margin-top: 10%;
   margin-left: 30%;
 }
-.info{
-  margin-left: auto ;
-  margin-right: auto;
-  margin-top: 20%;
-  font-family: 'Courier New', Courier, monospace;
-  font-size:xx-large;
-  width: 80%;
+/* Media queries for different screens 
+Desktop*/
+@media only screen and (max-width: 1600px) {
+  .Header {
+    font-size: 60px;
+  }
+  .info{
+    font-size: xx-large;
+  }
+  .button{
+    width: 200px;
+    height: 65px;
+    font-size: 25px;
+  }
 }
-/* .loginbtn{
-  align-self: center;
-} */
-/* .column{
-  min-height: 100vh;
-  background-color: #b7f2e2 ;
-} */
+/*Tablet*/
+@media only screen and (max-width: 1200px) {  
+  .Header {
+    font-size: 40px;
+  }
+  .info{
+    font-size: large;
+  }
+  .button{
+    width: 200px;
+    height: 65px;
+    font-size: 25px;
+  }
+}
+/*Phone*/
+@media only screen and (max-width: 800px) {
+  .Header {
+    font-size: 20px;
+  }
+  .info{
+    font-size: small;
+  }
+  .button{
+    width: 180px;
+    height: 35px;
+    font-size: 15px;
+    margin-top: 5%;
+  }
+}
+.Text{
+  font-size: 30%;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+}
+
 
 .App-link {
   color: #61dafb;

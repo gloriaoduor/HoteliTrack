@@ -1,16 +1,13 @@
 import { Link } from 'react-router-dom';
-import background from '../bg_image.jpg';
+
 
 
 
 
 function SignUpPage (){
-
-    
-
-    
     return (
-        <section className="vh-100"style={{backgroundImage: `url(${background})`, backgroundSize: "cover"}} >  {/*how to add opacity to img only */}
+        <section className="vh-100">
+        <img src="../logo.png" alt='logo'/>
             <div className="container-fluid h-custom" >
                 <div className="row d-flex justify-content-center align-items-center h-100">
                     <div className="col-md-6 col-lg-6 col-xl-4 offset-xl-1">

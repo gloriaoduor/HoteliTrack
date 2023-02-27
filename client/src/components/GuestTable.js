@@ -3,10 +3,6 @@ import React from "react";
 // import { Modal, Button } from "react-bootstrap";
 
 function GuestTable(){
-   
-    
-
-
     return (
       <div className="table-container mt-4 mx-4 bg-light p-4 h-custom row d-flex">
       <div className="row">
